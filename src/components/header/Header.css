@@ -1,0 +1,20 @@
+.container-cart{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.counter-cart{
+    position: absolute;
+    top: 4%;
+    right: 35%;
+    width: 30px;
+    height: 30px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

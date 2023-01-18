@@ -1,0 +1,15 @@
+import React from "react"
+import Item from "../item/Item"
+import "./ItemList.css"
+
+const ItemList = ({ items }) => {
+  return (
+    <div className="container flex flex-wrap content-between justify-between">
+      {items.map((element) => {
+        return <Item key={element.id} element={element} />
+      })}
+    </div>
+  )
+}
+
+export default ItemList
